@@ -144,26 +144,26 @@ function App() {
     setMovieId(id);
   };
 
-  const logout = () => {
-    auth.signOut();
-}
-  useEffect(() => {
-    onAuthStateChanged(authi, (user) => {
-      if (user) {
-        // setUser(user); // You don't need this line if you're using useAuthState
-      } else {
-        console.log("User is logged Out");
-      }
-    });
-  }, []);
+//   const logout = () => {
+//     auth.signOut();
+// }
+//   useEffect(() => {
+//     onAuthStateChanged(authi, (user) => {
+//       if (user) {
+//         // setUser(user); // You don't need this line if you're using useAuthState
+//       } else {
+//         console.log("User is logged Out");
+//       }
+//     });
+//   }, []);
 
-  if (!user) {
-    return (
-      <>
-        <SignIn />
-      </>
-    );
-  } else {
+//   if (!user) {
+//     return (
+//       <>
+//         <SignIn />
+//       </>
+//     );
+//   } else {
     return (
       <>
         <Navbar bg="dark" variant="dark" className="header">
@@ -194,6 +194,6 @@ function App() {
       </>
     );
   }
-}
+
 
 export default App;
