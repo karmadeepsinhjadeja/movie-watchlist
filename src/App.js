@@ -49,7 +49,7 @@ function App() {
             {/* <Navbar.Brand href="#home" >Hello {user}</Navbar.Brand> */}
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
-              <Button variant="primary">Logout</Button>
+              {/* <Button variant="primary">Logout</Button> */}
             </Navbar.Collapse>
           </Container>
         </Navbar>
