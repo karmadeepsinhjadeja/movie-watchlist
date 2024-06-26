@@ -16,7 +16,7 @@ function Navbar1() {
         {/* <Navbar.Collapse className="justify-content-end"> */}
         
       </Container>
-           <Button variant="primary" >Logout</Button>
+           {/* <Button variant="primary" >Logout</Button> */}
     </Navbar>
   );
 }
